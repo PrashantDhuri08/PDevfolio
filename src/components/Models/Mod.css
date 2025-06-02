@@ -1,0 +1,14 @@
+.canvas-container {
+  /* overflow: visible; */
+  height: 100vh;
+  /* touch-action: auto; */
+}
+
+canvas {
+  touch-action: auto !important;
+  overflow: visible;
+}
+/* #canvas{
+  touch-action: auto !important;
+  overflow: visible;
+} */

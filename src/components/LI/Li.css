@@ -1,0 +1,66 @@
+/* From Uiverse.io by javierBarroso */
+.btn {
+  font-size: 20px;
+  color: white;
+  font-family: inherit;
+  font-weight: 50;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 500ms;
+  transition-property: color;
+  padding: 20px;
+}
+
+.btn:focus,
+.btn:hover {
+  transition-duration: 500ms;
+  color: #222222aa;
+  background: linear-gradient(0, #0f0, #000 70%, #000 99%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.btn:focus:after,
+.btn:hover:after {
+  width: 100%;
+  left: 0px;
+}
+
+.btn:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 0px;
+  position: absolute;
+  width: 0%;
+  height: 5px;
+  background-color: #dfffdf;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 500ms;
+  transition-property: width, left;
+}
+
+.btn:focus:before,
+.btn:hover:before {
+  width: 100%;
+  left: 0px;
+}
+
+.btn:before {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 0px;
+  position: absolute;
+  width: 0%;
+  height: 5px;
+  background-color: #0f0;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 500ms;
+  transition-property: width, left;
+  filter: blur(5px);
+}
