@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import MedBut from "./MB/MedBut";
-import Li from "./LI/li";
+import Li from "./List/li";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
