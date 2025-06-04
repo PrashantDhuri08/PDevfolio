@@ -4,9 +4,9 @@ import BlurText from "./Text/Htext";
 function Profile() {
   return (
     <div className="Profile">
-      <div className="flex w-lvw justify-center items-center h-lvh text-white p-4">
-        <h1 className="text-cyan-700 text-4xl sm:text-5xl text-shadow-black font-bold ">
-          <span className="text-white text-xl sm:text-2xl font-sans block">
+      <div className="flex w-dvw justify-center items-center h-lvh text-white p-4">
+        <h1 className=" text-4xl sm:text-5xl text-shadow-black font-bold ">
+          <span className="text-zinc-100 text-xl sm:text-2xl font-sans block">
             Prashant Dhuri
           </span>
           <span className="text-white text-2xl sm:text-3xl font-extralight">

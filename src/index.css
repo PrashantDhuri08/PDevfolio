@@ -7,7 +7,7 @@
 }
 
 .animate-gradient {
-  background: linear-gradient(270deg,  cyan, black);
+  background: linear-gradient(270deg, #6B24A2, black);
   background-size: 400% 400%;
   animation: gradient 6s ease infinite;
 }

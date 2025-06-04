@@ -44,7 +44,7 @@ function Background3D() {
 function App() {
   return (
     <>
-      <div className="w-full flex justify-center flex-row">
+      <div className="w-lvw flex justify-center flex-row">
         {/* <Background3D className="  z-[-1]" /> */}
         {/* <Background3D/> */}
         <Navbar />
@@ -62,7 +62,7 @@ function App() {
               <Projects />
             </FadeInSection>
           </section>
-          <section id="about">
+          <section id="About">
             <FadeInSection>
               <About />
             </FadeInSection>

@@ -26,22 +26,22 @@ function Navbar() {
   return (
     <div className="relative">
       <button
-        className="sm:hidden fixed top-4 left-4 z-50  rounded p-2 "
+        className="sm:hidden fixed top-4 left-4 z-50  rounded p-2 text-zinc-500 "
         onClick={toggleNavbar}
       >
         Menu
       </button>
 
       <div
-        className={`fixed left-0 top-0 z-50 w-full sm:w-36 h-full flex  text-black list-none justify-start sm:justify-evenly flex-col ${
+        className={`fixed left-0 top-0 z-50 w-full sm:w-36 h-full flex  text-zinc-600 bg-transparent list-none justify-start sm:justify-evenly flex-col ${
           isOpen ? "block " : "hidden"
         } sm:flex`}
       >
         <button
-          className="sm:hidden absolute top-4 right-4 z-50 rounded p-2 bg-gray-100"
+          className="sm:hidden absolute top-4 right-4 z-50 rounded p-2 bg-amber-300 "
           onClick={toggleNavbar}
         >
-          Close
+          X
         </button>
         <div className="h-full text-center mt-16 sm:mt-0">
           <Li content="Profile" link="#Profile" />

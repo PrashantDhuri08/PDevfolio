@@ -1,12 +1,12 @@
 
 function About() {
   return (
-    <div className="flex justify-center items-center flex-col w-lvw min-h-screen ">
+    <div className="flex pl-1/2 mr-0 justify-center items-center flex-col w-lvw min-h-screen ">
       {/* <FadeInSection> */}
-      <h1 className="text-indigo-200 text-3xl sm:text-4xl font-medium text-center mb-8 sm:mb-14">
+      <h1 className="text-zinc-400 text-3xl sm:text-4xl font-medium text-center mb-8 sm:mb-14">
         About Me ??
       </h1>
-      <p className="text-white text-sm sm:text-lg font-extralight text-center  mx-auto max-w-[90%] sm:max-w-[60%]">
+      <p className="text-white text-xl sm:text-lg font-extralight  text-justify  mx-auto max-w-[90%] sm:max-w-[60%]">
         Just a CSE student with a passion for coding and a love for exploring
         new technologies. I enjoy working on projects that challenge my skills
         and push me to learn more. Always eager to collaborate with others and

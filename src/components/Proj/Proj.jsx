@@ -22,14 +22,20 @@ function Proj(props) {
   return (
     <div className="pl-16 flex flex-col lg:flex-row justify-center items-center w-full p-4 ">
       {/* Text section */}
-      <div className="w-full lg:w-1/2 lg:ml-16  mb-0 text-center flex flex-col justify-center items-center p-4">
+      <div className="w-full lg:w-1/2 lg:ml  mb-0 text-center flex flex-col justify-center items-center p-4">
         <h1 className="text-2xl sm:text-3xl font-extrabold mb-4">
           {props.title}
         </h1>
         <p className="text-sm sm:text-lg">{props.desc}</p>
         <div className="flex flex-row justify-center">
-          <Pbtn text="Checkout Code " />
-          <Pbtn text="Visit Live" />
+          <a href={props.clink}>
+            <Pbtn text="Checkout Code " />
+          </a>
+          {props.livelink && (
+            <a href={props.livelink}>
+              <Pbtn text="Visit Live" />
+            </a>
+          )}
         </div>
       </div>
 
