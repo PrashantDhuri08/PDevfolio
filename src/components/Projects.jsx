@@ -10,7 +10,7 @@ function Projects() {
           Projects
         </span> */}
         <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center items-center w-full gap-4 ">
-           <FadeInSection>
+          <FadeInSection>
             <Proj
               fname="resona.glb"
               title="Resona "
@@ -19,7 +19,7 @@ function Projects() {
               livelink="https://resona.onrender.com/"
             />
           </FadeInSection>
-          
+
           <FadeInSection>
             <Proj
               fname="macbook-pro.glb"
@@ -32,11 +32,10 @@ function Projects() {
             <Proj
               fname="fcbw.glb"
               title="FCB Widget"
-              desc="An Android home screen widget that proudly displays the iconic Black FC Barcelona (Barça) logo."
+              desc="An Android home screen widget that  displays the iconic Black FC Barcelona (Barça) logo."
               clink="https://github.com/PrashantDhuri08/FCB_Widget"
             />
           </FadeInSection>
-         
         </div>
       </div>
     </>
